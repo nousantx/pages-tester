@@ -2,6 +2,8 @@
 <html
   lang="en"
   child="
+(main): w-mx-1340px mx-auto w-100% h-mn-100vh;
+(p,a,.text): fs-0.8em fw-500 lh-1.35 ls--0.015em text-neutral-100;
 (.center): d-flex flex-parent-center;
 "
 >
@@ -10,8 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>NOuSantx Portfolio</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tenoxui/core@1.3.0-alpha.3/dist/tenoxui-full.min.js"></script>
+    <script src="./tui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tenoxui/property@1.4.5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@nousantx/someutils@0.3.1"></script>
 
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -47,534 +50,47 @@
     </style>
   </head>
   <body class="">
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
+    <main>
+      <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
+        <div class="center jc-flex-end w-full py-1rem">
+          <div class="center text-neutral-600 gap-6px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M14.448 16.24a22 22 0 0 1-1.747 2.175c1.673 1.623 3.228 2.383 4.091 1.884c.863-.498.982-2.225.413-4.484c-.853.19-1.779.334-2.757.424m-1.31.087a28 28 0 0 1-2.275 0c.376.492.758.948 1.137 1.363q.571-.623 1.138-1.364m5.04-7.894c2.665.764 4.406 2.034 4.406 3.567s-1.74 2.803-4.405 3.567c.67 2.69.44 4.832-.887 5.598c-1.327.767-3.297-.105-5.292-2.031c-1.994 1.925-3.964 2.798-5.291 2.031s-1.557-2.908-.887-5.598C3.157 14.803 1.417 13.533 1.417 12s1.74-2.803 4.405-3.567c-.67-2.69-.44-4.832.887-5.599c1.327-.766 3.297.106 5.291 2.032c1.995-1.926 3.965-2.798 5.292-2.032c1.327.767 1.557 2.909.887 5.599m-.973-.248c.57-2.26.45-3.986-.413-4.485c-.863-.498-2.418.262-4.09 1.885a22 22 0 0 1 1.746 2.175c.978.09 1.904.234 2.757.425m-10.41 7.63c-.569 2.26-.45 3.986.414 4.484c.863.498 2.418-.261 4.09-1.884a22 22 0 0 1-1.746-2.176a22 22 0 0 1-2.757-.425m4.068-8.142a28 28 0 0 1 2.275 0A21 21 0 0 0 12 6.31q-.57.625-1.137 1.364m-1.31.087a22 22 0 0 1 1.746-2.175C9.627 3.962 8.072 3.202 7.21 3.7c-.863.499-.983 2.226-.413 4.485c.853-.19 1.779-.334 2.757-.425m4.34 7.52A25.4 25.4 0 0 0 15.788 12a25.4 25.4 0 0 0-1.893-3.28a25.4 25.4 0 0 0-3.787 0A25.4 25.4 0 0 0 8.213 12a25.4 25.4 0 0 0 1.894 3.28a25.4 25.4 0 0 0 3.787 0m1.285-.132q.924-.12 1.75-.303a21 21 0 0 0-.612-1.667a28 28 0 0 1-1.137 1.97M8.823 8.851q-.924.121-1.75.304q.255.806.613 1.667a28 28 0 0 1 1.137-1.97m-1.75 5.994q.826.182 1.75.303a28 28 0 0 1-1.137-1.97a21 21 0 0 0-.613 1.667m-.978-.245c.262-.834.6-1.708 1.01-2.6a22 22 0 0 1-1.01-2.6c-2.241.636-3.677 1.604-3.677 2.6s1.436 1.963 3.677 2.6M16.93 9.155q-.827-.183-1.75-.304a28 28 0 0 1 1.137 1.97q.357-.86.613-1.666m.977.245c-.26.834-.6 1.708-1.01 2.6c.41.892.75 1.766 1.01 2.6c2.242-.637 3.678-1.604 3.678-2.6s-1.436-1.963-3.678-2.6M12 13.879a1.88 1.88 0 1 1 0-3.758a1.88 1.88 0 0 1 0 3.758"
+              />
+            </svg>
 
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
+            <span class="family-code fs-12px fw-500">Intro.tsx</span>
+          </div>
         </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
 
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
+        <header class="w-mx-600px mx-auto tw-balance ta-center">
+          <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">
+            Hi there. NOuSantx was here!
+          </h1>
 
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
+          <p class="mt-1.5rem text text-neutral-700">
+            Driven by curiosity, built with precision, tailored for impact
+          </p>
 
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
-    <article class="p-2rem pt-4rem pn-relative w-mx-768px mx-auto">
-      <header class="w-mx-600px mx-auto tw-balance">
-        <h1 class="family-poppins fs-3rem fw-600 lh-1 ls--0.040em">Hi there. NOuSantx was here!</h1>
-
-        <p class="mt-1.5rem text text-neutral-700">
-          Driven by curiosity, built with precision, tailored for impact
-        </p>
-
-        <div class="mt-2rem center max-lg:jc-flex-start lg:jc-center gap-8px">
-          <a
-            href="/projects"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
-          >
-            See Projects
-          </a>
-          <a
-            href="/about"
-            class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
-          >
-            About Me
-          </a>
-        </div>
-      </header>
-    </article>
+          <div class="mt-2rem center gap-8px">
+            <a
+              href="/projects"
+              class="h-35px px-12px br-6px tr-time-300ms center gap-6px td-none bg-neutral-950 hover:bg-neutral-800 text-neutral-100 hover:text-neutral-200 fw-500 family-code"
+            >
+              See Projects
+            </a>
+            <a
+              href="/about"
+              class="h-35px px-12px br-6px tr-time-300ms center gap-6px text-neutral-950 hover:text-neutral-800 hover:bg-neutral-100 [--bg-opa]-0.1 fw-500 td-none family-code [text-decoration-color]-transparent hover:[text-decoration-color]-currentColor"
+            >
+              About Me
+            </a>
+          </div>
+        </header>
+      </article>
+    </main>
     <footer class="mx-auto w-mx-1440px w-full pn-relative p-2rem pt-4rem">
       <div class="py-3rem">
         <header class="tw-balance max-lg:ta-left lg:ta-center">
@@ -587,7 +103,7 @@
               class="flex-parent-center d-inline-flex lh-inherit fs-inherit hover:[--rotate]--45deg td-none text-neutral-900 hover:text-primary-600 gap-4px"
             >
               <span class="td-underline tr-time-300ms">Now</span>
-              <div class="d-inline-block rotate-$rotate tr-time-300ms center">
+              <div class="rotate-$rotate tr-time-300ms center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                   <path
                     fill="currentColor"
@@ -627,12 +143,48 @@
           element,
           property: {
             ...TENOXUI_PROPERTY.property,
+            ...someutils.createProperty(
+              {
+                bg: 'backgroundColor',
+                text: 'color',
+                shadow: '--shadow-color',
+                'bdr-c': 'borderColor'
+              },
+              'rgb({0} / var(--{1}-opacity, 1))'
+            ),
             rotate: {
               property: 'transform',
               value: 'rotate({0})'
             }
           },
-
+          values: {
+            'primary-50': '250 250 250',
+            'primary-100': '232 232 232',
+            'primary-200': '196 196 196',
+            'primary-300': '159 159 159',
+            'primary-400': '123 123 123',
+            'primary-500': '87 87 87',
+            'primary-600': '74 74 74',
+            'primary-700': '60 60 60',
+            'primary-800': '47 47 47',
+            'primary-900': '33 33 33',
+            'primary-950': '20 20 20',
+            'neutral-50': '250 250 250',
+            'neutral-100': '232 232 232',
+            'neutral-200': '196 196 196',
+            'neutral-300': '159 159 159',
+            'neutral-400': '123 123 123',
+            'neutral-500': '87 87 87',
+            'neutral-600': '74 74 74',
+            'neutral-700': '60 60 60',
+            'neutral-800': '47 47 47',
+            'neutral-900': '33 33 33',
+            'neutral-950': '20 20 20',
+            family: {
+              code: 'JetBrains Mono'
+            },
+            full: '100%'
+          },
           attributify: true
         }).useDOM()
       })
